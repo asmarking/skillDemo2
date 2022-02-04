@@ -13,6 +13,6 @@ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUn
 public class SkillDemo2Test {
     @Test
     public void subtractTest() {
-        assertEquals(2,SkillDemo2.subtract(1,4)) ;
+        assertEquals(2,SkillDemo2.subtract(2,4)) ;
     }
 }
